@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_14_gray">
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/text_15dp</item>
+    </style>
+
+    <style name="text_14_dip_gray">
+        <item name="android:textColor">@color/text_dip_gray</item>
+        <item name="android:textSize">@dimen/text_14dp</item>
+    </style>
+    <style name="text_15_dip_gray">
+        <item name="android:textColor">@color/text_dip_gray</item>
+        <item name="android:textSize">@dimen/text_15dp</item>
+    </style>
+
+    <style name="text_16_white">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/text_16dp</item>
+    </style>
+
+    <style name="text_14_black">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/text_15dp</item>
+    </style>
+    <style name="text_15_black">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/text_15dp</item>
+    </style>
+
+    <style name="text_16_black">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/text_16dp</item>
+    </style>
+
+    <style name="text_15_hint_gray">
+        <item name="android:textColor">@color/text_hint_gray</item>
+        <item name="android:textSize">@dimen/text_15dp</item>
+    </style>
+</resources>

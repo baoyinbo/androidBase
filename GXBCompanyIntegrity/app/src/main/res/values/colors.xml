@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffffff</color>
+    <color name="colorPrimaryDark">#ffffffff</color>
+    <color name="colorAccent">#ffaaaaaa</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <!--波纹点击颜色-->
+    <!--白色点击色-->
+    <color name="ripple_white">#7faaaaaa</color>
+    <color name="selected_white">#cceeeeee</color>
+    <!--涟绮颜色,便深色-->
+    <color name="ripple_dark">#7F444444</color>
+
+
+    <color name="background">#f5f5f5</color>
+    <color name="head_background">#ffcdcdcd</color>
+    <color name="background_red">#ff4444</color>
+    <color name="divide_gray">#ffbbbbbb</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_black">#ff444444</color>
+    <color name="text_dip_gray">#ff888888</color>
+    <color name="text_gray">#ffaaaaaa</color>
+    <color name="text_hint_gray">#ffcccccc</color>
+    <color name="text_red">#ffed4c4d</color>
+
+    <!--倒计时-->
+    <color name="text_yellow">#FFA33D</color>
+
+    <color name="text_white_transparent">#77ffffff</color>
+
+
+    <!--以下是按钮颜色-->
+    <color name="button_orange">#ffa33d</color>
+    <color name="button_orange_focus">#ff933d</color>
+    <color name="button_orange_unenabled">#ffaaaa</color>
+</resources>

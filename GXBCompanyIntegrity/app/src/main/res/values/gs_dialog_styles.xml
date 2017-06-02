@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyleBottom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置是否浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置完全透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowAnimationStyle">@style/AlertDialogAnimation</item>
+        <item name="windowMinWidthMajor">100%</item>
+        <item name="windowMinWidthMinor">100%</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:listPreferredItemPaddingLeft">0dp</item>
+        <item name="android:listPreferredItemPaddingRight">0dp</item>
+        <item name="listPreferredItemPaddingLeft">0dp</item>
+        <item name="listPreferredItemPaddingRight">0dp</item>
+        <!--<item name="android:editTextStyle">@style/wj_et_corner_border</item>-->
+        <!--<item name="editTextStyle">@style/wj_et_corner_border</item>-->
+    </style>
+
+    <!--固定高度的且在底部的dialog-->
+    <style name="FixedHeightDialogStyleBottom" parent="Theme.AppCompat.Light.Dialog">
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AlertDialogAnimation</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+    </style>
+
+    <style name="AlertDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/gs_dialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/gs_dialog_botton_out</item>
+    </style>
+
+</resources>

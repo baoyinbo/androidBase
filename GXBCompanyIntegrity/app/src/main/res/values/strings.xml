@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">诚信平台</string>
+
+    <!--首页-->
+    <string name="home_first_item">租设备</string>
+    <string name="home_second_item">招机手</string>
+    <string name="home_third_item">找服务</string>
+    <string name="home_fourth_item">列表展示</string>
+
+    <string name="home_dia_work_address">工作地点</string>
+    <string name="home_dia_work_time">工作时长</string>
+    <string name="home_dia_work_content">工作内容</string>
+    <string name="home_dia_work_btn">立即接单</string>
+
+    <!--左侧菜单-->
+    <string name="menu_info">个人信息</string>
+    <string name="menu_verified">实名认证</string>
+    <string name="menu_no_verified">未认证</string>
+    <string name="menu_my_devices">我的设备</string>
+    <string name="menu_my_orders">我的订单</string>
+    <string name="menu_set">设置</string>
+    <string name="menu_custom">客服</string>
+
+    <!--登录-->
+    <string name="login">登录</string>
+    <string name="login_hint_phone">请填写手机号</string>
+    <string name="login_hine_code">请填写验证码</string>
+    <string name="login_get_code">获取验证码</string>
+    <string name="loing_login">立即登录</string>
+</resources>
